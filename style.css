@@ -1,0 +1,81 @@
+
+
+body {
+  font-family: 'Averia Libre', display;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    
+    
+}
+.nav {
+    display: flex;
+    height: 1000px;
+    width: 1500px;
+    flex-wrap: wrap;
+    
+    
+}
+.sport {
+    width: 200px;
+    height: 200px;
+ 
+}
+
+.two {
+    width: 200px;
+    height: 200px;
+}
+
+.flex {
+    margin-left: 158px;
+    margin-top: 114px; 
+    position: absolute;
+    
+    
+}
+.card:nth-child(1), .card:nth-child(5), .card:nth-child(9) {
+    margin-left: 305px;
+    
+}
+ .card:nth-child(9), .card:nth-child(10){
+    margin-bottom: 201px;
+}
+
+.card {
+    margin: 30px 15px 15px 15px;
+    width: 200px;
+    height: 200px;
+    
+}
+.name {
+    text-align: center;
+    color: rgba(47, 79, 79, 1);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Arial';
+    margin-top: 3px;
+}
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: bold;
+    margin-top: -30px;
+    color: rgba(139, 0, 0, 1);
+}
