@@ -1,55 +1,51 @@
-
-
 body {
-  font-family: 'Averia Libre', display;
+    font-family: 'Averia Libre', display;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     display: flex;
     justify-content: center;
     height: 1000px;
-    
-    
+
+
 }
+
 .nav {
     display: flex;
     width: 1500px;
     flex-wrap: wrap;
-    
-    
+
+
 }
+
 .sport {
     width: 200px;
     height: 200px;
- 
+
 }
 
 
 .flex {
     margin-left: 158px;
-    margin-top: 114px; 
+    margin-top: 114px;
     position: absolute;
-    
-    
-}
-.card:nth-child(1), .card:nth-child(5), .card:nth-child(9) {
-    margin-left: 305px;
-    
-}
- .card:nth-child(9), .card:nth-child(10){
-    margin-bottom: 201px;
+
+
 }
 
 .card {
     margin: 30px 15px 15px 15px;
     width: 200px;
     height: 200px;
-    border-radius: 50%;  
+    border-radius: 50%;
 }
+
 .name {
     text-align: center;
     color: rgba(47, 79, 79, 1);
@@ -58,6 +54,7 @@ header {
     font-family: 'Arial';
     margin-top: 3px;
 }
+
 .number {
     display: flex;
     justify-content: center;
@@ -74,13 +71,15 @@ header {
     margin-top: -30px;
     color: rgba(139, 0, 0, 1);
 }
+
 /*hover*/
 
 .card {
     transition-duration: 1s;
     transform: scale(1);
 }
-.card:hover {   
+
+.card:hover {
     transition-duration: 1s;
     transform: scale(1.2);
     opacity: .9;
